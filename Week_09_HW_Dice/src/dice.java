@@ -23,6 +23,7 @@ public class dice
            
            do
            {
+                //// Ok, but do you think you need to call the Throw method here?  What did the constructor do for you?
                dice.Throw();
                System.out.println("The dice come up " + dice.getDie1() + " and " + dice.getDie2() + ".");
                rollCount++;
